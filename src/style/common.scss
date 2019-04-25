@@ -1,0 +1,164 @@
+//按钮格式化
+input[type=button],input[type=submit],button,select{
+  -webkit-appearance:none;
+  outline:none
+}
+.boxStyle{
+	overflow:hidden;
+	background-color:#FFF;
+	border-radius:10px;
+	box-shadow:0 10px 30px rgba(#274C7C,0.14);
+}
+.w{
+	margin:auto 40px;
+}
+.ovH{
+  overflow:hidden;
+}
+.mt20{
+	margin-top:20px;
+}
+.mb20{
+	margin-bottom:20px;
+}
+.pt20{
+	padding-top:20px;
+}
+*{
+  -webkit-tap-highlight-color:transparent;
+}
+body{
+	background-color:#FFF;
+}
+.scrollMove{
+  -webkit-overflow-scrolling:touch;
+  height:100%;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+.popWindow{
+	position:fixed;
+	display:flex;
+	z-index:100;
+	background-color:rgba(#000,0.6);
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+.headBtn{
+	color:#354049;
+	opacity:0.5;
+	font-size:28px;
+	padding:0 40px;
+	transition:0.5s;
+	&.curr{
+		opacity:1;
+	}
+}
+.newMessageDot:before{
+	content:'';
+	position:absolute;
+	background-color:#E86C26;
+	width:20px;
+	height:20px;
+	right:-10px;
+	top:-10px;
+	border-radius:50%;
+}
+.newMessageNum em{
+	position:absolute;
+	background-color:#E86C26;
+	height:36px;
+  color:#FFF;
+	line-height:36px;
+	right:-13px;
+	top:-13px;
+	border-radius:99em;
+  font-size:22px;
+  padding:0 10px;
+}
+.ui_mainTitle{
+	line-height:120px;
+	display:flex;
+	h2{
+		font-size:40px;
+		font-weight:bold;
+		flex:1;
+	}
+	h3{
+		font-size:36px;
+		font-weight:bold;
+		flex:1;
+	}
+	.more{
+		font-size:26px;
+		&:after{
+			margin-left:20px;
+			content:'';
+			display: inline-block;
+			width:11px;
+			height:18px;
+			background:url('~@/img/ico_all.png') center/100% 100%;
+		}
+	}
+	.write{
+      font-size:26px;
+      color:#77A7CF;
+      &:before{
+        margin-right:10px;
+        content:'';
+        display: inline-block;
+        width:27px;
+        height:25px;
+        background:url('~@/img/course/ico_write.png') center/100% 100%;
+        vertical-align:-3px;
+      }
+	}
+}
+.ui_header{
+  display:flex;
+  h1{
+    flex:1;
+    font-size:40px;
+    line-height:120px;
+  }
+  .action{
+    height:44px;
+    margin:auto 0;
+    display:flex;
+    dd{
+      margin-left:37px;
+      width:44px;
+      height:44px;
+      position:relative;
+      &.message{
+        background:url('~@/img/ico_message.png') center/100% 100%;
+      }
+    }
+  }
+}
+.btnStyle{
+  border:0;
+  background-color:transparent;
+  border-radius:10px;
+  &.btn1{
+    border:2px solid #77A7CF;
+    color:#77A7CF;
+    font-size:24px;
+    width:160px;
+    height:60px;
+  }
+  &.btn2{
+		background-color:#77A7CF;
+    color:#FFF;
+    font-size:24px;
+    width:166px;
+    height:60px;
+  }
+}
+.interval{
+  height:20px;
+  clear:both;
+  background-color:#F7F7F7;
+}

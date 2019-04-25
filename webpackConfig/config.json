@@ -1,0 +1,58 @@
+{
+  "entry": "./src/index.js",
+  "output": "../dist",
+  "mockpath": "../src/mock",
+  "dropConsole": false,
+  "sourceMap": true,
+  "host": "192.168.2.123",
+  "port": "8080",
+  "open": true,
+  "imageLimit": 4196,
+  "proxy": {
+    "/api-user/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-main/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-course/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-user-card/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-user-main/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-upload/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-user-study/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-teacher-count/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/api-teacher-main/*": {
+      "target": "http://m.dt-lake.com/",
+      "changeOrigin": true,
+      "secure": false
+    }
+  }
+}

@@ -1,0 +1,48 @@
+/* 用于公共字体设置的CSS */
+body {
+    font-family: "Tahoma", "Helvetica", "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif";
+}
+
+.font-d1 {
+    font-size: 92.5px;
+}
+
+.font-d2 {
+    font-size: 58.75px;
+}
+
+.font-d3 {
+    font-size: 41.25px;
+}
+
+.font-h1 {
+    font-size: 37.5px;
+}
+
+.font-h2 {
+    font-size: 34.375px;
+}
+
+.font-h3 {
+    font-size: 31.25px;
+}
+
+.font-t1 {
+    font-size: 27.775px;
+}
+
+.font-t2 {
+    font-size: 23.125px;
+}
+
+.font-t3 {
+    font-size: 20.625px;
+}
+
+.font-t4 {
+    font-size: 16.875px;
+}
+
+.font-t5 {
+    font-size: 12.5px;
+}
